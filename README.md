@@ -98,4 +98,48 @@ kafka_projects/
 
 ```
 
+---
+
+## Kafka Configuration Highlights
+
+```python
+KAFKA_NODE_ID: 1
+KAFKA_PROCESS_ROLES: broker, controller
+KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:9093
+KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+
+```
+
+### Why This Matters
+
+- Uses KRaft mode (modern Kafka, no ZooKeeper)
+
+- Mirrors production roles (broker + controller)
+
+- Simplifies enterprise onboarding
+
+- Can scale to multi-broker clusters later
+
+---
+
+## Prerequisites
+
+- Docker Desktop (Windows 11 supported)
+
+- Python 3.9+
+
+- pip
+
+- Git
+
+---
+
+## Setup Instructions
+<ins>Clone the Repository</INS>
+
+```python
+git clone https://github.com/your-username/enterprise-kafka-orders-platform.git
+cd enterprise-kafka-orders-platform
+```
+
 
