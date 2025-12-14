@@ -268,4 +268,16 @@ docker compose up -d
 
 ---
 
+## How This Scales in Enterprise
+
+```python
+| Component | Current Setup | Enterprise Setup | Explanation |
+|-----------|---------------|------------------|-------------|
+| Brokers | 1 | 3–9+ | High availability through cluster |
+| Replication Factor | 1 | 3 | Data redundancy and fault tolerance |
+| Consumers | 1 | Consumer groups | Scalable consumer patterns |
+| Topics | orders | orders, payments, shipping | Domain-driven topic architecture |
+| Security | None | SSL / SASL / ACLs | Production security requirements |
+```
+
 
