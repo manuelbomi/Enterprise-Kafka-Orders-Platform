@@ -320,6 +320,12 @@ docker compose up -d
 
 ---
 
+> [!NOTE]
+> Please see the repository here for an enhanced project:   https://github.com/manuelbomi/Production-Ready-Kafka-Microservices-Architecture-for-Enterprise-Applications/tree/main
+>
+
+---
+
 ### Thank you for reading
 
 
