@@ -282,19 +282,13 @@ docker compose up -d
 
 ## Next Enhancements (Roadmap)
 
-[x] Multi-broker Kafka cluster
-
-[x] Schema Registry (Avro / Protobuf)
-
-[x] Kafka Connect
-
-[x] Monitoring (Prometheus + Grafana)
-
-[x] Kubernetes deployment
-
-[x] Exactly-once semantics
-
-[x] Stream processing (Kafka Streams / Flink)
+- [x] Multi-broker Kafka cluster
+- [x] Schema Registry (Avro / Protobuf)
+- [x] Kafka Connect
+- [x] Monitoring (Prometheus + Grafana)
+- [x] Kubernetes deployment
+- [x] Exactly-once semantics
+- [x] Stream processing (Kafka Streams / Flink)
 
 
 
