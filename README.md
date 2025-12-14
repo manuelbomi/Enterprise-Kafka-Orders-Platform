@@ -270,6 +270,16 @@ docker compose up -d
 
 ## How This Scales in Enterprise
 
+| Component | Current | Enterprise Scale |
+|-----------|---------|------------------|
+| Brokers | 1 | 3–9+ |
+| Replication | 1 | 3 |
+| Consumers | 1 | Consumer groups |
+| Topics | orders | orders, payments, shipping |
+| Security | None | SSL / SASL / ACLs |
+
+
+
 ```python
 
 | Component | Current Setup | Enterprise Setup | Explanation |
