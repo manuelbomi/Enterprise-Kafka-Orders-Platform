@@ -191,6 +191,14 @@ python consumer_orders.py
 🟢 Kafka consumer is running and subscribed to orders topic
 ```
 
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/17abe1ae-4f44-4ef8-ba8a-3f0a34f3cef0" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/a92437b2-000e-44b7-bf14-b48fa179c4be" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/ed130807-c334-4d5a-b6b4-0d2c899b77c6" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/22e3c642-35e6-4fcf-ba64-05e6a91a34c1" />
+
 #### Run the Producer
 
 ```python
