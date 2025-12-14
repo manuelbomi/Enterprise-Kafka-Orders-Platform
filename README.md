@@ -35,9 +35,13 @@
 <ins>This project demonstrates</ins>:
 
 ✔ Kafka broker + controller in KRaft mode
+
 ✔ Topic-based messaging for business events
+
 ✔ Reliable delivery using Confluent Kafka client
+
 ✔ Dockerized infrastructure for portability
+
 ✔ Production-style configs with minimal complexity
 
 #### It is ideal for:
@@ -46,6 +50,6 @@
 
 - Data engineers
 
--- Platform engineers
++ Platform engineers
 
--- Backend developers learning Kafka correctly
++ Backend developers learning Kafka correctly
