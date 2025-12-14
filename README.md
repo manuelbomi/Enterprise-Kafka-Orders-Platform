@@ -234,4 +234,14 @@ docker exec -it kafka kafka-console-consumer \
 
 ```
 
+---
+
+<ins>Kafka Help / Diagnostics</ins>
+
+```python
+docker exec -it kafka kafka-topics --help
+```
+
+---
+
 
