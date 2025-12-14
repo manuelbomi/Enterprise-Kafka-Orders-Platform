@@ -154,3 +154,13 @@ docker ps
 ```
 ---
 
+## Python Environment Setup
+```python
+python -m venv .venv
+
+source .venv/Scripts/activate   # Windows
+
+pip install confluent-kafka
+
+```
+
