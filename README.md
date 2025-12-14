@@ -74,8 +74,28 @@
            v
 +---------------------+
 |  Python Consumer    |
-|  (Order Tracker)   |
+|  (Order Tracker)    |
 +---------------------+
 
 
 ```
+
+---
+
+## Project Structure
+
+```python
+kafka_projects/
+│
+├── docker-compose.yaml        # Kafka (KRaft mode) Docker setup
+│
+├── producer.py                # Enterprise-style Kafka producer
+├── consumer_orders.py         # Kafka consumer service
+│
+├── .venv/                     # Python virtual environment (local)
+│
+└── README.md                  # Project documentation
+
+```
+
+
