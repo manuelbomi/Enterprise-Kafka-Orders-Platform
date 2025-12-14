@@ -244,4 +244,28 @@ docker exec -it kafka kafka-topics --help
 
 ---
 
+## Additional Enterprise Debugging Techniques
+
+<ins>Check Broker Logs</ins>
+
+```python
+docker logs kafka
+```
+
+<ins>Verify Port Binding</ins>
+
+```python
+netstat -ano | findstr 9092
+```
+
+<ins>Restart Kafka Cleanly</ins>
+
+```python
+docker compose down -v
+
+docker compose up -d
+```
+
+---
+
 
