@@ -53,3 +53,29 @@
 - Platform engineers
 
 - Backend developers learning Kafka correctly
+
+---
+
+## Architecture (Single-Node KRaft)
+
+```python
++---------------------+
+|  Python Producer    |
+|  (Orders Service)   |
++----------+----------+
+           |
+           v
++------------------------------+
+|  Kafka Broker + Controller   |
+|  (KRaft Mode, Docker)        |
+|  Topic: orders               |
++------------------------------+
+           |
+           v
++---------------------+
+|  Python Consumer    |
+|  (Order Tracker)   |
++---------------------+
+
+
+```
