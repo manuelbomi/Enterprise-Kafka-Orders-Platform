@@ -199,4 +199,16 @@ python producer.py
 ```python
 📦 Received order. Thank you: 18 x Ford f450 from Emm Oyekanlu
 ```
+---
+
+## Enterprise Troubleshooting & Validation (Kafka CLI)
+
+<ins>List All Topics</ins>
+
+```python
+docker exec -it kafka kafka-topics \
+  --list \
+  --bootstrap-server localhost:9092
+```
+
 
