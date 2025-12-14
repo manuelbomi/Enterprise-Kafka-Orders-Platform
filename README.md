@@ -205,6 +205,12 @@ python consumer_orders.py
 python producer.py
 ```
 
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/4d2a16ac-135a-4648-8841-cf28ba859d1b" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/480638b9-c19e-4472-89b7-3c82de05041b" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/6611524d-e43d-441d-bbb7-40523b689c04" />
+
 
 #### Expected output:
 
