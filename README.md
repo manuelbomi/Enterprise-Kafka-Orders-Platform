@@ -148,6 +148,12 @@ docker compose up -d
 ```
 
 
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/767009e8-72b7-4850-9bde-fb767889d914" />
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/2cad5f35-ec51-429e-8b2f-2eb19f89933b" />
+
+
+
 #### Verify Kafka is running:
 ```python
 docker ps
