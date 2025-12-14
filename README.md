@@ -50,6 +50,6 @@
 
 - Data engineers
 
-+ Platform engineers
+- Platform engineers
 
-+ Backend developers learning Kafka correctly
+- Backend developers learning Kafka correctly
