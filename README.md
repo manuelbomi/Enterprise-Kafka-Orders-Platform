@@ -163,4 +163,40 @@ source .venv/Scripts/activate   # Windows
 pip install confluent-kafka
 
 ```
+---
+
+## Running the Application
+
+#### Start the Consumer
+
+```python
+python consumer_orders.py
+```
+
+
+#### Expected output:
+
+```python
+🟢 Kafka consumer is running and subscribed to orders topic
+```
+
+#### Run the Producer
+
+```python
+python producer.py
+```
+
+
+#### Expected output:
+
+```python
+✓ ✅ Message delivered to topic {...}
+```
+
+
+#### Consumer output:
+
+```python
+📦 Received order. Thank you: 18 x Ford f450 from Emm Oyekanlu
+```
 
