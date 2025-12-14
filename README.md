@@ -142,4 +142,15 @@ git clone https://github.com/your-username/enterprise-kafka-orders-platform.git
 cd enterprise-kafka-orders-platform
 ```
 
+<ins>Start Kafka</ins>
+```python
+docker compose up -d
+```
+
+
+#### Verify Kafka is running:
+```python
+docker ps
+```
+---
 
