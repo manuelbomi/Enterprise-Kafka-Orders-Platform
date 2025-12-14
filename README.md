@@ -197,7 +197,7 @@ python consumer_orders.py
 
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/ed130807-c334-4d5a-b6b4-0d2c899b77c6" />
 
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/22e3c642-35e6-4fcf-ba64-05e6a91a34c1" />
+
 
 #### Run the Producer
 
