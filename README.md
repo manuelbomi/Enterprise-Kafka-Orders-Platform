@@ -273,10 +273,28 @@ docker compose up -d
 | Component | Current Setup | Enterprise Setup | Explanation |
 |-----------|---------------|------------------|-------------|
 | **Brokers** | 1 | 3–9+ | High availability through cluster |
-| Replication Factor | 1 | 3 | Data redundancy and fault tolerance |
-| Consumers | 1 | Consumer groups | Scalable consumer patterns |
-| Topics | orders | orders, payments, shipping | Domain-driven topic architecture |
-| Security | None | SSL / SASL / ACLs | Production security requirements |
+| **Replication Factor** | 1 | 3 | Data redundancy and fault tolerance |
+| **Consumers**| 1 | Consumer groups | Scalable consumer patterns |
+| **Topics** | orders | orders, payments, shipping | Domain-driven topic architecture |
+| **Security** | None | SSL / SASL / ACLs | Production security requirements |
+
+---
+
+## Next Enhancements (Roadmap)
+
+[x] Multi-broker Kafka cluster
+
+[x] Schema Registry (Avro / Protobuf)
+
+[x] Kafka Connect
+
+[x] Monitoring (Prometheus + Grafana)
+
+[x] Kubernetes deployment
+
+[x] Exactly-once semantics
+
+[x] Stream processing (Kafka Streams / Flink)
 
 
 
