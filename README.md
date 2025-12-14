@@ -211,4 +211,27 @@ docker exec -it kafka kafka-topics \
   --bootstrap-server localhost:9092
 ```
 
+---
+
+<ins>Describe the Orders Topic</ins>
+
+```python
+docker exec -it kafka kafka-topics \
+  --describe \
+  --topic orders \
+  --bootstrap-server localhost:9092
+```
+
+---
+
+<ins>Consume Messages from CLI</ins>
+
+```python
+docker exec -it kafka kafka-console-consumer \
+  --bootstrap-server localhost:9092 \
+  --topic orders \
+  --from-beginning
+
+```
+
 
